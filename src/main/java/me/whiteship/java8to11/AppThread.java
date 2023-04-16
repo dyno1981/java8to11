@@ -1,6 +1,6 @@
 package me.whiteship.java8to11;
 
-public class AppConcurrent {
+public class AppThread {
     public static void main(String[] args) throws InterruptedException {
         Thread thread = new Thread(() -> {
             while (true) {
